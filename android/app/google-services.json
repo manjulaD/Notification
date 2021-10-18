@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "334628018178",
+    "project_id": "hospitalequipment-5c80f",
+    "storage_bucket": "hospitalequipment-5c80f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334628018178:android:38251616209cad0b23ef1b",
+        "android_client_info": {
+          "package_name": "com.manjula.notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334628018178-pf5cjd3ahnr1t5eq8ga10eeivl6ihpvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2bARAGk0gy_hz2WUYwFuLRcpGSmYNjcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334628018178-pf5cjd3ahnr1t5eq8ga10eeivl6ihpvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
