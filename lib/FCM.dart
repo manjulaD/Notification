@@ -7,6 +7,17 @@ class FCM {
   final streamCtlr = StreamController<String>.broadcast();
 
   static Future<dynamic> onBackgroundMessage(Map<String, dynamic> message) async {
+    FirebaseMessaging messaging = FirebaseMessaging.instance;
+
+    NotificationSettings settings = await messaging.requestPermission(
+      alert: true,
+      announcement: false,
+      badge: true,
+      carPlay: false,
+      criticalAlert: false,
+      provisional: false,
+      sound: true,
+    );
     if (message.containsKey('data')) {
       // Handle data message
       final dynamic data = message['data'];
